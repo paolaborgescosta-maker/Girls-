@@ -255,14 +255,3 @@ buscarProjetoPorId(2);
 console.log("\n" + "=".repeat(80));
 console.log("✨ Relatório gerado com sucesso! ✨");
 console.log("=".repeat(80) + "\n");
-
-// Export para uso em outros arquivos (Node.js)
-module.exports = {
-  projetos,
-  gerarRelatorioCompleto,
-  listarFinalizados,
-  listarEmAndamento,
-  calcularEstatisticas,
-  buscarProjetoPorId,
-  relatorioPortecnologia
-};
